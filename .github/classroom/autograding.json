@@ -85,7 +85,7 @@
       "setup": "",
       "run": "./main",
       "input": "script9.txt",
-      "output": "Terjemahan Pesan:\r\nID: 13221099\r\nNama: MBA DELTA\r\nPesan: YUK BISA YUK, DIKIT LAGI NIH!\r\nTanggal: 22 NOVEMBER 2022\r\nWaktu: 21.30",
+      "output": "Masukkan nama file: \r\nTerjemahan Pesan:\r\nID: 13219033\r\nNama: SiDaRtHa PrAsTyA\r\nPesan: S3l4M4t 8a9l K41ian Y4n9 5u04H 54mPqi k3 TaH4p iN1! 100 gmpang lah yak!\r\nTanggal: 22 FEBRUARI 2023\r\nWaktu: 13.30",
       "comparison": "included",
       "timeout": 1,
       "points": 10
