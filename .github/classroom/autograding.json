@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "make main",
+      "run": "./main",
+      "input": "script1.txt",
+      "output": "Terjemahan Pesan:\r\nID: 13219100\r\nNama: HELLO WORLD\r\nPesan: CIE BERHASIL\r\nTanggal: 5 MEI 2021\r\nWaktu: 05:00",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "2",
+      "setup": "",
+      "run": "./main",
+      "input": "script2.txt",
+      "output": "Terjemahan Pesan:\r\nID: 18320199\r\nNama: MBA ELA\r\nPesan: WIH KEREN!\r\nTanggal: 14 MARET 2022\r\nWaktu: 06.17",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "3",
+      "setup": "",
+      "run": "./main",
+      "input": "ngasalaja.txt",
+      "output": "File tidak ditemukan.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "4",
+      "setup": "",
+      "run": "./main",
+      "input": "script3.txt",
+      "output": "Terjemahan Pesan:\r\nID: 13218120\r\nNama: MAS BRO\r\nPesan: NGOPI BANG?\r\nTanggal: 10 MARET 2023\r\nWaktu: 09.17",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "5",
+      "setup": "",
+      "run": "./main",
+      "input": "script4.txt",
+      "output": "Terjemahan Pesan:\r\nID: 13219200\r\nNama: BUAYA\r\nPesan: KALO AKU CHAT GINI, NANTI ADA YANG MARAH GA?\r\nTanggal: 14 FEBRUARI 2023\r\nWaktu: 12.25",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "6",
+      "setup": "",
+      "run": "./main",
+      "input": "script5.txt",
+      "output": "Terjemahan Pesan:\r\nID: 13220110\r\nNama: JOHN CENA\r\nPesan: ZHAO SHANG HAO ZHONG GUO!\r\nTanggal: 20 JUNI 2022\r\nWaktu: 07.10",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "7",
+      "setup": "",
+      "run": "./main",
+      "input": "script6.txt",
+      "output": "Terjemahan Pesan:\r\nID: 18015109\r\nNama: BUDI SETIAWAN\r\nPesan: JUTAAN ORANG TIDAK MENGETAHUI BAHWA MEREKA BISA MENGHASILKAN UANG DALAM KETIADAAN\r\nTanggal: 21 JANUARI 2016\r\nWaktu: 07.10",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "8",
+      "setup": "",
+      "run": "./main",
+      "input": "script7.txt",
+      "output": "Terjemahan Pesan:\r\nID: 18320222\r\nNama: SPONGEBOB\r\nPesan: AKU SIAP, AKU SIAP!\r\nTanggal: 10 AGUSTUS 2021\r\nWaktu: 13.11",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "9",
+      "setup": "",
+      "run": "./main",
+      "input": "script9.txt",
+      "output": "Terjemahan Pesan:\r\nID: 13221099\r\nNama: MBA DELTA\r\nPesan: YUK BISA YUK, DIKIT LAGI NIH!\r\nTanggal: 22 NOVEMBER 2022\r\nWaktu: 21.30",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "",
+      "run": "./main",
+      "input": "script9.txt",
+      "output": "Terjemahan Pesan:\r\nID: 13219033\r\nNama: SiDaRtHa PrAsTyA\r\nPesan: S3l4M4t 8a9l K41ian Y4n9 5u04H 54mPqi k3 TaH4p iN1! 100 gmpang lah yak!\r\nTanggal: 22 FEBRUARI 2023\r\nWaktu: 13.30",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
